@@ -30,6 +30,7 @@ h2 {
     color: #fff;
     margin: auto;
     margin-top: 100px;
+    line-height: 200px;
 }
 
 .box.active {
@@ -38,11 +39,10 @@ h2 {
 }
 
 .boxcontainer {
-    margin:0 auto;
+    margin: 100px auto;
     display: block;
     height: 400px;
     width: 200px;
-    margin-top: 100px;
 }
 
 .box-two {
@@ -54,7 +54,6 @@ h2 {
     color: black;
     vertical-align: middle;
     text-align: center;
-    margin-top: 100px;
 }
 
 .box-three {
@@ -64,16 +63,14 @@ h2 {
     height: 200px;
     width: 200px;
     background: red;
-    opacity: 0;
+    line-height: 200px;
     -webkit-transition: all 5s ease;   
 
     &.active {
         padding-left: 200px;
+        text-align: center;
     }
 
-    &.visible {
-        opacity: 1;
-    }
 }
 
 
@@ -84,6 +81,7 @@ h2 {
     height: 200px;
     width: 200px;
     background: black;
+    line-height: 200px;
 
     &.active{
         background: red;
@@ -97,6 +95,7 @@ h2 {
     width: 200px;
     background: blue;
     color: #fff;
+    line-height: 200px;
 }
 
 .box-fivecontainer {
@@ -115,12 +114,55 @@ h2 {
     width: 200px;
     background: green;
     color: #fff;
+    line-height: 200px;
 
     &.larger {
         height: 300px;
         width: 300px;
     }
 
+}
+
+.box-seven {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    color: #fff;
+    line-height: 200px;
+}
+
+.minibox {
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    opacity: 0;
+
+    &.appear {
+        opacity: 1;
+    }
+}
+
+
+
+.box-eight {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    color: #fff;
+    line-height: 200px;
+    -webkit-transition: all .5s;
+
+    &.largerspin {
+         -webkit-transform: rotate(180deg);
+         height: 400px;
+         width: 400px;
+    }
 }
 
 .boxer {
@@ -140,10 +182,12 @@ h2 {
     width: 100px;
     border-radius: 50px;
     background: black;
+    line-height: 50px;
     -webkit-transition: all 1.5s;
 
     &.falling {
         margin-top: 220px;
+        -webkit-transform: rotate(-200deg);
     }
 }
 
@@ -192,8 +236,23 @@ h2 {
 
 .pooltable {
     margin: 0 auto;
-    position: absolute;
     display: block;
+    position: relative;
+}
+
+.pooltable span {
+    position: absolute;
+    top: 228px;
+    right: 364px;
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    opacity: 0;
+
+    &.change {
+        opacity: 1;
+        transition-delay: 1s;
+    }
 }
 
 .stick {
@@ -219,9 +278,17 @@ h2 {
     &.next {
         position: absolute;
         top: 426px;
-        right: 829px;
+        right: 867px;
         -webkit-transform: rotate(1000deg);
         transition-delay: .3s;
+    }
+
+    &.away {
+        position: absolute;
+        top: 426px;
+        right: 867px;
+        opacity: 0;
+        transition-delay: 3s;
     }
 
 
@@ -243,4 +310,225 @@ h2 {
     }
 }
 
+.write {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 50px;
+    width: 200px;border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: inset 0px 2px 2px rgb(133, 133, 132);
+
+}
+
+.rectangle {
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    background: purple;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+.toggle {
+    display: block;
+    margin: 0 auto;
+}
+
+.box-ten {
+    margin: 100px auto;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+ 
+.box-eleven {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    color: #fff;
+
+    &.gone {
+        background: red;
+    }
+}
+
+.box-twelve {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    color: #fff;
+    border-radius: 100px;
+    line-height: 200px;
+
+    &.active {
+        border-radius: 0;
+        background: green;
+    }
+}
+
+
+.buttonlever {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 45px;
+    width: 60px;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+.box-thirteen {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    background: green;
+    color: #fff;
+    line-height: 200px;
+
+    &.active {
+        padding: 50px;
+    }
+}
+
+.box-fourteen {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    background: red;
+    color: #fff;
+    margin-top: 100px;
+    -webkit-transition: all .3s;
+
+    &.active {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.box-fifteen {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: black;
+    color: #fff;
+    line-height: 200px;
+
+    &.active {
+        height: 30px;
+        width: 500px;
+    }
+}
+
+.box-sixteen {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 700px;
+    background: blue;
+    color: #fff;
+    line-height: 400px;
+
+    &.active {
+        margin: 20px;
+    }
+}
+
+.box-seventeen {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    color: #fff;
+    border-radius: 100px;
+    line-height: 200px;
+    -webkit-transition: all .3s;
+
+    &.active {
+        height: 700px;
+        width: 700px;
+        line-height: 700px;
+        border-radius: 350px;
+    }
+}
+
+.box-eighteen {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: red;
+    color: #fff;
+    line-height: 200px;
+    -webkit-transition: all .5s;
+
+    &.active {
+        height: 20px;
+        width: 20px;
+        border-radius: 100px;
+    }
+}
+
+.box-nineteen {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    color: #fff;
+    line-height: 200px;
+
+    &.active {
+        background: yellow;
+    }
+}
+.littlebox {
+    margin-top: -50px;
+    margin-left: 50px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: black;
+
+    &.active {
+        margin-left: 200px;
+    }
+}
+
+
+.box-twenty {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: purple;
+    color: #fff;
+    line-height: 200px;
+}
+
+.box-twentyone {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: orange;
+    color: #fff;
+    line-height: 200px;
+    
+    &.active {
+        line-height: 30px;
+    }
+}
 
