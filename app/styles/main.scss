@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Didact Gothic', sans-serif;
 }
 
 body * {
@@ -19,6 +20,7 @@ h2 {
     position: relative;
     width: 940px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .box {
@@ -26,7 +28,7 @@ h2 {
     margin: 0 auto;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(98, 126, 156);
     color: #fff;
     margin: auto;
     margin-top: 100px;
@@ -62,7 +64,7 @@ h2 {
     display: block;
     height: 200px;
     width: 200px;
-    background: red;
+    background: rgb(170, 188, 211);
     line-height: 200px;
     -webkit-transition: all 5s ease;   
 
@@ -80,11 +82,11 @@ h2 {
     display: block;
     height: 200px;
     width: 200px;
-    background: black;
+    background: rgb(98, 126, 156);
     line-height: 200px;
 
     &.active{
-        background: red;
+        background: rgb(242, 185, 88);
     }
 }
  
@@ -93,7 +95,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(19, 170, 225);
     color: #fff;
     line-height: 200px;
 }
@@ -112,7 +114,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: green;
+    background: rgb(170, 188, 211);
     color: #fff;
     line-height: 200px;
 
@@ -128,7 +130,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(65, 79, 104);
     color: #fff;
     line-height: 200px;
 }
@@ -153,7 +155,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: green;
+    background: rgb(98, 126, 156);
     color: #fff;
     line-height: 200px;
     -webkit-transition: all .5s;
@@ -327,7 +329,7 @@ h2 {
     height: 50px;
     width: 200px;
     margin: 0 auto;
-    background: purple;
+    background: rgb(98, 126, 156);
     margin-top: 100px;
     line-height: 50px;
 }
@@ -350,11 +352,11 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(110, 156, 185);
     color: #fff;
 
     &.gone {
-        background: red;
+        background: rgb(242, 185, 88);
     }
 }
 
@@ -363,14 +365,14 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(19, 170, 225);
     color: #fff;
     border-radius: 100px;
     line-height: 200px;
 
     &.active {
         border-radius: 0;
-        background: green;
+        background: rgb(98, 126, 156);
     }
 }
 
@@ -391,7 +393,7 @@ h2 {
     margin: 0 auto;
     height: 200px;
     width: 200px;
-    background: green;
+    background: rgb(110, 156, 185);
     color: #fff;
     line-height: 200px;
 
@@ -405,7 +407,7 @@ h2 {
     margin: 0 auto;
     height: 200px;
     width: 200px;
-    background: red;
+    background: rgb(98, 126, 156);
     color: #fff;
     margin-top: 100px;
     -webkit-transition: all .3s;
@@ -421,7 +423,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: black;
+    background: rgb(170, 188, 211);
     color: #fff;
     line-height: 200px;
 
@@ -436,7 +438,7 @@ h2 {
     margin-top: 100px;
     height: 400px;
     width: 700px;
-    background: blue;
+    background: rgb(242, 185, 88);
     color: #fff;
     line-height: 400px;
 
@@ -450,7 +452,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: green;
+    background: rgb(65, 79, 104);
     color: #fff;
     border-radius: 100px;
     line-height: 200px;
@@ -469,7 +471,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: red;
+    background: rgb(98, 126, 156);
     color: #fff;
     line-height: 200px;
     -webkit-transition: all .5s;
@@ -486,12 +488,12 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: blue;
+    background: rgb(242, 185, 88);
     color: #fff;
     line-height: 200px;
 
     &.active {
-        background: yellow;
+        background: rgb(170, 188, 211);;
     }
 }
 .littlebox {
@@ -513,7 +515,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: purple;
+    background: rgb(19, 170, 225);
     color: #fff;
     line-height: 200px;
 }
@@ -523,7 +525,7 @@ h2 {
     margin-top: 100px;
     height: 200px;
     width: 200px;
-    background: orange;
+    background: rgb(242, 185, 88);
     color: #fff;
     line-height: 200px;
     
